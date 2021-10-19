@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Registrar un usuario</h1>
+    <form action="/index.html" method="post">
+        <label for="nombre" >Nombre del Usuario</label>
+        <br>
+        <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre y apellido">
+        <br>
+        <label for="Contraseña"> Contraseña del usuario</label>
+        <br>
+        <input type="password" name="Contraseña" id="Contraseña">
+        <br>
+        <label for="edad" >Edad del Usuario</label>
+        <br>
+        <input id="edad" name="edad" type="number">
+        <br>
+        <label for="nacimiento" >Fecha de Nacimiento</label>
+        <br>
+        <input id="nacimiento" name="nacimiento" type="date">
+        <br>
+        <h3>Sexo del usuario</h3>
+        
+        <input type="radio" id="hombre" name="Sexo" value="1">
+        <label for="hombre">Hombre</label>
+        <br>
+        <input type="radio" id="mujer" name="Sexo" value="2">
+        <label for="mujer">Mujer</label> 
+        <br>
+        <input type="radio" id="otro" name="Sexo" id="3">
+        <label for="otro">Otro</label> 
+        <br>
+        <h3>Pais de nacimiento</h3>
+        <select name="pais" id="pais">
+            <option value="1">Argentina</option>
+            <option value="2">Brasil</option>
+            <option value="3">Chile</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

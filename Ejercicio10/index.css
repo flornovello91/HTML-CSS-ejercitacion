@@ -1,0 +1,31 @@
+#titulo{
+    color:darkcyan;
+    font-size: xx-large;
+}
+#subtitulo{
+    color:blue;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#adicional{
+    color: rgb(80, 141, 80);
+    font-size: 15px;
+}
+.nulla{
+    font-size: 15px;
+    font-weight: bold;
+}
+.tabla{
+    font-size: 15px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.tabla th,.tabla td{
+    border: 1px solid #000;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-style:normal;
+    font-size: small;
+}

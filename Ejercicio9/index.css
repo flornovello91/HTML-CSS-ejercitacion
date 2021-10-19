@@ -1,0 +1,14 @@
+ol{
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: url("imagenes/ok.png");
+}
+ul{
+    list-style-type: upper-latin;
+}
+a:link{
+    color: blue;
+}
+a:hover{
+    color: blueviolet;
+}

@@ -29,3 +29,6 @@ table th.yen{
     background: #E6F3FF url(imagenes/yen.png) no-repeat left center;
     padding: 0 .3em 0 1.2em;
 }
+td{
+    background-color: #FFFFCC;
+}

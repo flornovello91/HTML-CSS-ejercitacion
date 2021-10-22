@@ -3,15 +3,15 @@
 
 }
 .jumbotron text-center{
+    size: 45px;
     background: rgb(202, 125, 125);
-    
 }
-#titulo-producto{
-    font-family: ;
+#titulo_auriculares{
+    font-size: 25px;
 }
-.bg-danger text-white{
-    color: rgb(99, 38, 16) !important;
+#compra{
+    margin-left: 1100px;
+    display: inline-flexbox;
+    border: 20px;
+    text-align: right;
 }
-/*
-rgb(189, 181, 181)
-*/

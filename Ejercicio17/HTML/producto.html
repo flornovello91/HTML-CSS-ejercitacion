@@ -36,24 +36,46 @@
               </nav>
         </div>
         <div class="producto">
-            <!--<div class="row">
-            <div class="col-sm-4">.col-sm-4</div>
-            <div class="col-sm-8">.col-sm-8</div>
-            </div>
-            <div class="producto-imagen">
-                <img src="https://m.media-amazon.com/images/I/51IDjCNjx8L._AC_SX355_.jpg" class="float-md-left" width="20%" alt="beats headphones in rose-gold">
-                <img src="https://images.oneclickstore.com/images/gals/Beats_Solo3_Rose_001.jpg" class="float-md-right" width="30%" alt="beats headphones in rose-gold">
-            </div>
-            -->
             <div  class="jumbotron text-center ">
                 <h1 class="display-4 font-weight-bold" id="titulo-producto">AURICULARES INALÁMBRICOS DE ALTO RENDIMIENTO</h1>
             </div>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1" class="active"></li>
+                  <li data-target="#demo" data-slide-to="2" class="active"></li>
+                </ul>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-fluid" src="https://www.ipodtotal.com/archivos/styles/nota/public/portada/a1_79.jpg?itok=hTF_CAvb" alt="Beats headphones in rose-gold" width="auto" height="500">
+                  </div>
+                  <div id="segunda" class="carousel-item ">
+                    <img class="img-fluid" src="https://images.oneclickstore.com/images/gals/Beats_Solo3_Rose_003.jpg" alt="Beats headphones in rose-gold" width="500" height="500">
+                  </div>
+                  <div  class="carousel-item">
+                    <img class="img-fluid" src="https://www.actualidadiphone.com/wp-content/uploads/2015/11/Beats-Rose-Gold-830x419.jpg" alt="Beats headphones in rose-gold" width="auto" height="500" >
+                  </div>
+                </div>
+              
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              
+              </div>
             <div>
+                <br>
+                <br>
                 <div class="row">
-                    <div class="col-sm-4" > <img src="https://images.oneclickstore.com/images/gals/Beats_Solo3_Rose_001.jpg"float-md-left" width="65%" alt="beats headphones in rose-gold"></div>
+                    <div class="col-sm-4" > <img class="img-fluid" src="https://images.oneclickstore.com/images/gals/Beats_Solo3_Rose_001.jpg"float-md-left" width="65%" alt="beats headphones in rose-gold"></div>
                     <div class="col-sm-8">
                         <div class="jumbotron text-right bg-danger text-white">
-                            <h3>AURICULARES TOTALMENTE INALÁMBRICOS CON CANCELACIÓN DEL RUIDO</h3>
+                            <h3 id="titulo_auriculares">AURICULARES TOTALMENTE INALÁMBRICOS CON CANCELACIÓN DEL RUIDO</h3>
                         </div>
                         <div>
                             <ul class="text-right list-unstyled" >
@@ -66,7 +88,13 @@
                     </div>
                   </div>
             </div>
-            
+            <div id="compra" class="">
+                <br>
+                <button type="button"  class="btn btn-outline-danger">Comprar</button>
+                <br>
+                <br>
+                <button type="button" class="btn btn-outline-secondary">Agregar al carrito</button>
+            </div>
         </div>
 
     </div>
